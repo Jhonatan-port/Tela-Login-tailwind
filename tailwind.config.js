@@ -6,7 +6,7 @@ module.exports = {
       borderRadius: {
         '4xl': '5rem',
         
-      }
+      },
     },
   },
   plugins: [],

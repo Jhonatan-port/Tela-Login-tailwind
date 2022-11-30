@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.div__padrao{
+    @apply xl:h-screen flex items-center flex-col justify-center
+}
+
+.input__padrao{
+   @apply p-1 border-b border-r border-slate-500 placeholder-slate-400 contrast-more:border-slate-400
+          rounded-md contrast-more:placeholder-slate-500
+}
+
+.div__botoes{
+    @apply grid grid-rows-2 gap-2 sm:pt-8 sm:flex sm:flex-row sm:items-center sm:gap-1
+}
